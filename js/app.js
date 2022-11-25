@@ -20,6 +20,14 @@ function myFunction(y) {
 
 
 
+// preloader time // 
+
+  // setTimeout(function(){
+  //   $('.loader-bg').fadeToggle();
+  // }, 2000);
+
+
+
 
 
   // function myFunction() {
