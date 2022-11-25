@@ -985,6 +985,10 @@ video {
   margin-bottom: 60%;
 }
 
+.mb-\[40\%\] {
+  margin-bottom: 40%;
+}
+
 .-ml-9 {
   margin-left: -2.25rem;
 }
@@ -2344,6 +2348,8 @@ input[type=submit]:hover {
   /* height: 200px; */
   /* margin: 0 auto; */
 }
+
+
 
 .card-zoom1:hover {
   /* IE 9 */
