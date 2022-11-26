@@ -621,7 +621,7 @@ background-color:rgba(239, 245, 255, 0.1);
 }
 
 .footer-bg1{
-  background-color: #03235f;
+  background-color: #58595B;
 }
 
 
@@ -815,7 +815,7 @@ input[type=submit]:hover {
   padding: 0px 5px;
   background-color: white;
   transition: transform 1s;
-  width: 200px;
+  width: 421px;
   /* height: 200px; */
   /* margin: 0 auto; */
 }
@@ -830,8 +830,8 @@ input[type=submit]:hover {
 
 /* button-hover */
 
-::before,
-  ::after {
+.btn1::before,
+.btn1::after {
     position: absolute;
     content: "";
    
@@ -892,15 +892,18 @@ input[type=submit]:hover {
   
   
 .bg-color1{
-  background-color: #0259ff;
+  background-color: rgba(28, 117, 188, 1);
 }
 
+.nav-bg-color {
+  background-color: rgba(255,255,255);
+}
 
 
 /* contact-button-hover */
 
-::before,
-  ::after {
+.btn-contact::before,
+.btn-contact::after {
     position: absolute;
     content: "";
    
