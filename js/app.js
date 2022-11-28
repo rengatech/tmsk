@@ -158,5 +158,20 @@ $(".project-carousel").owlCarousel({
 
 
   
-// index-img-zoom-in // 
+// //
 
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+
+
+$(document).ready(function(){
+	$(window).bind('scroll', function() {
+		var navHeight = $('.nav-bar1').height();
+		if ($(window).scrollTop() > navHeight) {
+			$('.nav-bar1').addClass('fixed1');
+		 }
+		else {
+			$('.nav-bar1').removeClass('fixed1');
+		 }
+	});
+});
+  

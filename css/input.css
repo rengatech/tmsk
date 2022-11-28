@@ -38,7 +38,7 @@
   background-repeat: repeat;
   background-position: center;
   /* border-radius: 50%; */
-  width: 288px;
+  width: 229px;
   height: 100px;
   position: absolute;
   top: 0;
@@ -964,6 +964,73 @@ input[type=submit]:hover {
 
 
 
+  /* about-button-hover */
+
+  .abt-btn-contact::before,
+  .abt-btn-contact::after {
+      position: absolute;
+      content: "";
+     
+    }
+    
+  
+    .abt-btn-contact {
+      position: relative;
+      /* display: inline-block; */
+      width: auto; height: auto;
+      /* background-color: transparent; */
+      border: none;
+      cursor: pointer;
+      /* margin: 0px 25px 15px; */
+      min-width: 150px;
+      padding: 5px;
+    }
+      .abt-btn-contact span {         
+        position: relative;
+        display: inline-block;
+        /* font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase; */
+        top: 0; left: 0;
+        /* width: 100%; */
+        padding: 15px 20px;
+        transition: 0.3s !important;
+       
+      }
+    
+   
+    /*--- btn-2 ---*/
+    .abt-btn-contact1::before {
+      /* color: #1C75BC; */
+      background-color: black;
+      transition: 0.3s ease-out;
+      
+    }
+    
+    .abt-btn-contact1 span:hover {
+      color: white;
+      /* background-color: rgba(51, 51, 51, 0.486); */
+      transition: 0.2s 0.1s;
+      
+    }
+    
+    
+    
+    /* 9. hover-slide-right */
+    .abt-btn-contact.hover-slide-right::before {
+      top: 0; bottom: 0; left: 0; 
+      height: 100%; width: 0%;
+    }
+    .abt-btn-contact.hover-slide-right:hover::before {
+      width: 100%;
+    }
+  
+
+
+
+
+
 
   .zoom-In-Image{
     transform: scale(1);
@@ -1022,3 +1089,6 @@ figure{
   left: 50%;
   transform: translate(-50%);
 }
+
+
+
