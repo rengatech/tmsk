@@ -1653,8 +1653,8 @@ video {
 ::after {
   /* background: url(images/tmsk-b.svg); */
   /* width: 52px; */
-  display: none;
 }
+
 
 .loader::before{
   -webkit-animation-delay: .5s;
