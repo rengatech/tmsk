@@ -856,6 +856,7 @@ input[type=submit]:hover {
       width: 100%;
       padding: 15px 5px;
       transition: 0.3s !important;
+      color: black;
      
     }
   
@@ -863,7 +864,7 @@ input[type=submit]:hover {
   /*--- btn-2 ---*/
   .btn-21::before {
     /* color: #1C75BC; */
-    background-color: rgba(14, 13, 13, 0.575);
+    background-color: rgba(28, 117, 188, 1);
     transition: 0.3s ease-out;
     
   }
