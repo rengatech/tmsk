@@ -2435,6 +2435,7 @@ input[type=submit]:hover {
   /* margin: 0px 25px 15px; */
   /* min-width: 150px; */
   padding: 3px;
+  color: black;
 }
 
 .btn1 span {
@@ -2455,7 +2456,7 @@ input[type=submit]:hover {
 
 .btn-21::before {
   /* color: #1C75BC; */
-  background-color: rgba(14, 13, 13, 0.575);
+  background-color: rgba(28, 117, 188, 1);
   transition: 0.3s ease-out;
 }
 
@@ -2526,7 +2527,7 @@ input[type=submit]:hover {
 
 .btn-contact1::before {
   /* color: #1C75BC; */
-  background-color: black;
+  background-color: rgba(28, 117, 188, 1);
   transition: 0.3s ease-out;
 }
 
@@ -2590,7 +2591,7 @@ input[type=submit]:hover {
     /*--- btn-2 ---*/
     .abt-btn-contact1::before {
       /* color: #1C75BC; */
-      background-color: black;
+      background-color: rgba(28, 117, 188, 1);
       transition: 0.3s ease-out;
       
     }
@@ -2633,7 +2634,7 @@ input[type=submit]:hover {
   display: inline-block;
   text-align: center;
   /* width: 33%; */
-  float: left;
+  /* float: left; */
 }
 
 figure{
@@ -3055,3 +3056,7 @@ figure{
   }
 }
 
+
+.footer-top{
+  margin-top: 772px;
+}
