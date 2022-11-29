@@ -1,9 +1,10 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//     let burger=document.querySelector(".burger");
-//     let Links= document.querySelector(".nav-links");
-//     burger.addEventListener('click',()=> {
-//     Links.classList.toggle("nav-show");
-//      })   }); 
+
+//pre-loader//
+
+// setTimeout(function () {
+//   $(".loader-bg").fadeToggle();
+// }, 1500);
+
 
 // side menu //
 function myFunction(y) {
@@ -20,11 +21,6 @@ function myFunction(y) {
 
 
 
-// preloader time // 
-
-  // setTimeout(function(){
-  //   $('.loader-bg').fadeToggle();
-  // }, 2000);
 
 
 
@@ -175,3 +171,4 @@ $(document).ready(function(){
 	});
 });
   
+
