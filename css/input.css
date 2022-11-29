@@ -48,10 +48,7 @@
   opacity: 0;
 }
 
-/* ::after {
-  background: url(images/tmsk-b.svg);
-  width: 52px;
-} */
+
 
 .loader::before{
   -webkit-animation-delay: .5s;
