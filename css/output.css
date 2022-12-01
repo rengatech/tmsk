@@ -1098,6 +1098,14 @@ video {
   height: 400px;
 }
 
+.h-\[739px\]{
+  height: 739px;
+}
+
+.h-\[757px\]{
+  height: 757px;
+}
+
 .h-1\/2 {
   height: 50%;
 }
@@ -2490,68 +2498,72 @@ input[type=submit]:hover {
   background-color: rgba(255,255,255);
 }
 
-/* contact-button-hover */
 
-.btn-contact::before,
-.btn-contact::after {
-  position: absolute;
-  content: "";
-}
 
-.btn-contact {
-  position: relative;
-  /* display: inline-block; */
-  width: auto;
-  height: auto;
-  /* background-color: transparent; */
-  border: none;
-  cursor: pointer;
-  /* margin: 0px 25px 15px; */
-  min-width: 150px;
-  padding: 5px;
-}
+ /* contact-button-hover */
 
-.btn-contact span {
-  position: relative;
-  display: inline-block;
-  /* font-size: 14px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      text-transform: uppercase; */
-  top: 0;
-  left: 0;
-  /* width: 100%; */
-  padding: 15px 20px;
-  transition: 0.3s !important;
-}
+ .btn-contact::before,
+ .btn-contact::after {
+     position: absolute;
+     content: "";
+    
+   }
+   
+ 
+   .btn-contact {
+     position: relative;
+     /* display: inline-block; */
+     width: auto; height: auto;
+     background-color: rgba(28, 117, 188, 1);
+     color: black;
+     border: none;
+     cursor: pointer;
+     /* margin: 0px 25px 15px; */
+     min-width: 150px;
+     padding: 5px;
+   }
+     .btn-contact span {         
+       position: relative;
+       display: inline-block;
+       /* font-size: 14px;
+       font-weight: bold;
+       letter-spacing: 2px;
+       text-transform: uppercase; */
+       top: 0; left: 0;
+       /* width: 100%; */
+       padding: 15px 20px;
+       transition: 0.3s !important;
+      
+     }
+   
+  
+   /*--- btn-2 ---*/
+   .btn-contact1::before {
+     /* color: #1C75BC; */
+     background-color: black;
+     transition: 0.3s ease-out;
+     
+   }
+   
+   .btn-contact1 span:hover {
+     color: white;
+     /* background-color: rgba(51, 51, 51, 0.486); */
+     transition: 0.2s 0.1s;
+     
+   }
+   
+   
+   
+   /* 9. hover-slide-right */
+   .btn-contact.hover-slide-right::before {
+     top: 0; bottom: 0; left: 0; 
+     height: 100%; width: 0%;
+   }
+   .btn-contact.hover-slide-right:hover::before {
+     width: 100%;
+   }
 
-/*--- btn-2 ---*/
 
-.btn-contact1::before {
-  /* color: #1C75BC; */
-  background-color: rgba(28, 117, 188, 1);
-  transition: 0.3s ease-out;
-}
-
-.btn-contact1 span:hover {
-  color: white;
-  /* background-color: rgba(51, 51, 51, 0.486); */
-  transition: 0.2s 0.1s;
-}
-
-/* 9. hover-slide-right */
-
-.btn-contact.hover-slide-right::before {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 0%;
-}
-
-.btn-contact.hover-slide-right:hover::before {
-  width: 100%;
-}
 
   /* about-button-hover */
 
@@ -3005,6 +3017,10 @@ figure{
 
   .lg\:h-\[50\%\] {
     height: 50%;
+  }
+
+  .lg\:h-\[757\px\]{
+    height: 757px;
   }
 
   .lg\:w-auto {
