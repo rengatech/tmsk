@@ -23,9 +23,6 @@ function myFunction(y) {
 
 
 
-
-
-
   // function myFunction() {
   //   y.classList.toggle("change");
   // }
@@ -171,4 +168,5 @@ $(document).ready(function(){
 	});
 });
   
+
 
